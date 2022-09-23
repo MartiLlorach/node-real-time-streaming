@@ -1,7 +1,7 @@
 const http = require("http")
 const fs = require("fs")
 
-var config = {
+const config = {
     port: 3000,
     host: "0.0.0.0",
     updateInterval: 500, //ms
